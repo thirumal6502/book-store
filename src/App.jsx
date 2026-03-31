@@ -11,6 +11,7 @@ import "./App.css";
 const App = () => {
   return (
     <BrowserRouter>  
+    <BookList/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/books" element={<BookList />} />
