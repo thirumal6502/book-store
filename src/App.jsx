@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./components/Home";
 import BookList from "./components/BookList";
-
+import Header from "./components/Header";
 import BookDetails from "./components/BookDetails";
 import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
@@ -11,7 +11,7 @@ import Checkout from "./components/Checkout";
 const App = () => {
   return (
     <BrowserRouter>  
-    
+      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/books" element={<BookList />} />
