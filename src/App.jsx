@@ -7,7 +7,7 @@ import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 // import NotFound from "./components/NotFound";
 
-import "./App.css";
+
 const App = () => {
   return (
     <BrowserRouter>  
