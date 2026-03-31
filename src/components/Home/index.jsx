@@ -6,7 +6,7 @@ import "./index.css";
 const Home = () => {
   return (
     <>
-      <Header />
+      
       <div className="banner-container">
         <div className="banner-content-container">
           <h1 className="banner-heading">Book Store</h1>
